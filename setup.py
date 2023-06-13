@@ -2,7 +2,7 @@ from distutils.core import setup
 
 REQUIRES = [
     'requests',
-    'allure-pytest'
+    'allure'
 ]
 setup(
     name='dm_api_account',
