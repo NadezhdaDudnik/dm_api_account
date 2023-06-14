@@ -2,7 +2,8 @@ from distutils.core import setup
 
 REQUIRES = [
     'requests',
-    'allure-pytest'
+    'allure-pytest',
+    'pydantic'
 ]
 setup(
     name='dm_api_account',
@@ -13,5 +14,5 @@ setup(
     author='Nadezhda Dudnik',
     author_email='-',
     install_requires=REQUIRES,
-    description='dm_api_account with allure and logger'
+    description='dm_api_account library with apis and models'
 )
