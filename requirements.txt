@@ -1,4 +1,0 @@
-git+https://github.com/NadezhdaDudnik/restclient.git
-requests
-structlog
-pydantic
