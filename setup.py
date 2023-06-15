@@ -1,4 +1,4 @@
-from distutils.core import setup
+from setuptools import setup, find_packages
 
 REQUIRES = [
     'requests',
@@ -8,7 +8,7 @@ REQUIRES = [
 setup(
     name='dm_api_account',
     version='0.0.2',
-    packages=['dm_api_account'],
+    packages=find_packages(),
     url='https://github.com/NadezhdaDudnik/dm_api_account.git',
     license='MIT',
     author='Nadezhda Dudnik',
